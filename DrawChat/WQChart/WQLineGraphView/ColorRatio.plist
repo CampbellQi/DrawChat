@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>RED</key>
+            <string>203</string>
+            <key>GREEN</key>
+            <string>0</string>
+            <key>BLUE</key>
+            <string>34</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+        
+        <dict>
+            <key>RED</key>
+            <string>43</string>
+            <key>GREEN</key>
+            <string>133</string>
+            <key>BLUE</key>
+            <string>252</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+        
+        <dict>
+            <key>RED</key>
+            <string>54</string>
+            <key>GREEN</key>
+            <string>255</string>
+            <key>BLUE</key>
+            <string>11</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+        
+        <dict>
+            <key>RED</key>
+            <string>248</string>
+            <key>GREEN</key>
+            <string>0</string>
+            <key>BLUE</key>
+            <string>193</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+        
+        <dict>
+            <key>RED</key>
+            <string>252</string>
+            <key>GREEN</key>
+            <string>255</string>
+            <key>BLUE</key>
+            <string>44</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+        
+        <dict>
+            <key>RED</key>
+            <string>194</string>
+            <key>GREEN</key>
+            <string>114</string>
+            <key>BLUE</key>
+            <string>53</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+        
+        <dict>
+            <key>RED</key>
+            <string>54</string>
+            <key>GREEN</key>
+            <string>157</string>
+            <key>BLUE</key>
+            <string>206</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+        
+        <dict>
+            <key>RED</key>
+            <string>91</string>
+            <key>GREEN</key>
+            <string>96</string>
+            <key>BLUE</key>
+            <string>188</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+        
+        <dict>
+            <key>RED</key>
+            <string>80</string>
+            <key>GREEN</key>
+            <string>154</string>
+            <key>BLUE</key>
+            <string>112</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+        
+        <dict>
+            <key>RED</key>
+            <string>135</string>
+            <key>GREEN</key>
+            <string>106</string>
+            <key>BLUE</key>
+            <string>168</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+        
+        <dict>
+            <key>RED</key>
+            <string>181</string>
+            <key>GREEN</key>
+            <string>214</string>
+            <key>BLUE</key>
+            <string>128</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+        
+        <dict>
+            <key>RED</key>
+            <string>198</string>
+            <key>GREEN</key>
+            <string>75</string>
+            <key>BLUE</key>
+            <string>76</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+        
+        <dict>
+            <key>RED</key>
+            <string>100</string>
+            <key>GREEN</key>
+            <string>145</string>
+            <key>BLUE</key>
+            <string>206</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+        
+        <dict>
+            <key>RED</key>
+            <string>109</string>
+            <key>GREEN</key>
+            <string>196</string>
+            <key>BLUE</key>
+            <string>223</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+        
+        <dict>
+            <key>RED</key>
+            <string>171</string>
+            <key>GREEN</key>
+            <string>234</string>
+            <key>BLUE</key>
+            <string>108</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+        
+        <dict>
+            <key>RED</key>
+            <string>228</string>
+            <key>GREEN</key>
+            <string>45</string>
+            <key>BLUE</key>
+            <string>46</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+        
+        <dict>
+            <key>RED</key>
+            <string>70</string>
+            <key>GREEN</key>
+            <string>115</string>
+            <key>BLUE</key>
+            <string>176</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+        
+        <dict>
+            <key>RED</key>
+            <string>159</string>
+            <key>GREEN</key>
+            <string>246</string>
+            <key>BLUE</key>
+            <string>173</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+        
+        <dict>
+            <key>RED</key>
+            <string>100</string>
+            <key>GREEN</key>
+            <string>174</string>
+            <key>BLUE</key>
+            <string>132</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+        
+        <dict>
+            <key>RED</key>
+            <string>105</string>
+            <key>GREEN</key>
+            <string>76</string>
+            <key>BLUE</key>
+            <string>138</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+        
+        <dict>
+            <key>RED</key>
+            <string>161</string>
+            <key>GREEN</key>
+            <string>184</string>
+            <key>BLUE</key>
+            <string>98</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+        
+        <dict>
+            <key>RED</key>
+            <string>168</string>
+            <key>GREEN</key>
+            <string>45</string>
+            <key>BLUE</key>
+            <string>46</string>
+            <key>ALPHA</key>
+            <string>1</string>
+        </dict>
+    </array>
+</plist>

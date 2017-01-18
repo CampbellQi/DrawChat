@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>春季</key>
+	<dict>
+		<key>总包</key>
+		<string>40.1</string>
+		<key>三建</key>
+		<string>17.2</string>
+		<key>四建</key>
+		<string>15.5</string>
+		<key>六建</key>
+		<string>17.9</string>
+		<key>土木</key>
+		<string>8.0</string>
+	</dict>
+	<key>夏季</key>
+	<dict>
+		<key>总包</key>
+		<string>51.8</string>
+		<key>三建</key>
+		<string>6.8</string>
+		<key>四建</key>
+		<string>7.8</string>
+		<key>六建</key>
+		<string>2.3</string>
+		<key>土木</key>
+		<string>6.3</string>
+	</dict>
+    <key>秋季</key>
+    <dict>
+        <key>总包</key>
+        <string>41.8</string>
+        <key>三建</key>
+        <string>12.8</string>
+        <key>四建</key>
+        <string>10.8</string>
+        <key>六建</key>
+        <string>8.3</string>
+        <key>土木</key>
+        <string>3.3</string>
+    </dict>
+	<key>SUFFIX</key>
+	<string>亿元</string>
+</dict>
+</plist>

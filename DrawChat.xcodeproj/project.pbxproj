@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C3161D1E2EFF0B0030933E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3161C1E2EFF0B0030933E /* main.m */; };
+		18C316201E2EFF0B0030933E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3161F1E2EFF0B0030933E /* AppDelegate.m */; };
+		18C316261E2EFF0B0030933E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C316241E2EFF0B0030933E /* Main.storyboard */; };
+		18C316281E2EFF0B0030933E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C316271E2EFF0B0030933E /* Assets.xcassets */; };
+		18C3162B1E2EFF0B0030933E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C316291E2EFF0B0030933E /* LaunchScreen.storyboard */; };
+		18C3167A1E2F07F90030933E /* WQBarGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3166B1E2F07F90030933E /* WQBarGraphView.m */; };
+		18C3167B1E2F07F90030933E /* gaugeback.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C3166D1E2F07F90030933E /* gaugeback.png */; };
+		18C3167C1E2F07F90030933E /* pointer.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C3166E1E2F07F90030933E /* pointer.png */; };
+		18C3167D1E2F07F90030933E /* pointer1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C3166F1E2F07F90030933E /* pointer1.png */; };
+		18C3167E1E2F07F90030933E /* pointer2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C316701E2F07F90030933E /* pointer2.png */; };
+		18C3167F1E2F07F90030933E /* WQGaugeGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C316721E2F07F90030933E /* WQGaugeGraphView.m */; };
+		18C316801E2F07F90030933E /* ColorRatio.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C316741E2F07F90030933E /* ColorRatio.plist */; };
+		18C316811E2F07F90030933E /* WQLineGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C316761E2F07F90030933E /* WQLineGraphView.m */; };
+		18C316821E2F07F90030933E /* WQPieGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C316791E2F07F90030933E /* WQPieGraphView.m */; };
+		18C316851E2F081D0030933E /* BarGraphController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C316841E2F081D0030933E /* BarGraphController.m */; };
+		18C316881E2F083D0030933E /* GaugeGraphController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C316871E2F083D0030933E /* GaugeGraphController.m */; };
+		18C3168B1E2F085B0030933E /* LineGraphController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3168A1E2F085B0030933E /* LineGraphController.m */; };
+		18C3168E1E2F08740030933E /* PieGraphController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3168D1E2F08740030933E /* PieGraphController.m */; };
+		18C316901E2F0D6B0030933E /* BarGraphData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C3168F1E2F0D6B0030933E /* BarGraphData.plist */; };
+		18C316921E2F0DCE0030933E /* WQGaugeGraphData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C316911E2F0DCE0030933E /* WQGaugeGraphData.plist */; };
+		18C316941E2F0DE10030933E /* WQLineGraphData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C316931E2F0DE10030933E /* WQLineGraphData.plist */; };
+		18C316961E2F0DF00030933E /* WQPieGraphData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C316951E2F0DF00030933E /* WQPieGraphData.plist */; };
+		18C3169A1E2F0F8A0030933E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C316991E2F0F8A0030933E /* BaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18C316181E2EFF0B0030933E /* DrawChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C3161C1E2EFF0B0030933E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18C3161E1E2EFF0B0030933E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18C3161F1E2EFF0B0030933E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18C316251E2EFF0B0030933E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C316271E2EFF0B0030933E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C3162A1E2EFF0B0030933E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C3162C1E2EFF0B0030933E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C3166A1E2F07F90030933E /* WQBarGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQBarGraphView.h; sourceTree = "<group>"; };
+		18C3166B1E2F07F90030933E /* WQBarGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQBarGraphView.m; sourceTree = "<group>"; };
+		18C3166D1E2F07F90030933E /* gaugeback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gaugeback.png; sourceTree = "<group>"; };
+		18C3166E1E2F07F90030933E /* pointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pointer.png; sourceTree = "<group>"; };
+		18C3166F1E2F07F90030933E /* pointer1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pointer1.png; sourceTree = "<group>"; };
+		18C316701E2F07F90030933E /* pointer2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pointer2.png; sourceTree = "<group>"; };
+		18C316711E2F07F90030933E /* WQGaugeGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQGaugeGraphView.h; sourceTree = "<group>"; };
+		18C316721E2F07F90030933E /* WQGaugeGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQGaugeGraphView.m; sourceTree = "<group>"; };
+		18C316741E2F07F90030933E /* ColorRatio.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ColorRatio.plist; sourceTree = "<group>"; };
+		18C316751E2F07F90030933E /* WQLineGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQLineGraphView.h; sourceTree = "<group>"; };
+		18C316761E2F07F90030933E /* WQLineGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQLineGraphView.m; sourceTree = "<group>"; };
+		18C316781E2F07F90030933E /* WQPieGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQPieGraphView.h; sourceTree = "<group>"; };
+		18C316791E2F07F90030933E /* WQPieGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQPieGraphView.m; sourceTree = "<group>"; };
+		18C316831E2F081D0030933E /* BarGraphController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarGraphController.h; sourceTree = "<group>"; };
+		18C316841E2F081D0030933E /* BarGraphController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarGraphController.m; sourceTree = "<group>"; };
+		18C316861E2F083D0030933E /* GaugeGraphController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaugeGraphController.h; sourceTree = "<group>"; };
+		18C316871E2F083D0030933E /* GaugeGraphController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaugeGraphController.m; sourceTree = "<group>"; };
+		18C316891E2F085B0030933E /* LineGraphController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGraphController.h; sourceTree = "<group>"; };
+		18C3168A1E2F085B0030933E /* LineGraphController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineGraphController.m; sourceTree = "<group>"; };
+		18C3168C1E2F08740030933E /* PieGraphController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieGraphController.h; sourceTree = "<group>"; };
+		18C3168D1E2F08740030933E /* PieGraphController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieGraphController.m; sourceTree = "<group>"; };
+		18C3168F1E2F0D6B0030933E /* BarGraphData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BarGraphData.plist; sourceTree = "<group>"; };
+		18C316911E2F0DCE0030933E /* WQGaugeGraphData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WQGaugeGraphData.plist; sourceTree = "<group>"; };
+		18C316931E2F0DE10030933E /* WQLineGraphData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WQLineGraphData.plist; sourceTree = "<group>"; };
+		18C316951E2F0DF00030933E /* WQPieGraphData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WQPieGraphData.plist; sourceTree = "<group>"; };
+		18C316971E2F0F4E0030933E /* WQChatHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQChatHeader.h; sourceTree = "<group>"; };
+		18C316981E2F0F8A0030933E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		18C316991E2F0F8A0030933E /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C316151E2EFF0B0030933E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C3160F1E2EFF0B0030933E = {
+			isa = PBXGroup;
+			children = (
+				18C3161A1E2EFF0B0030933E /* DrawChat */,
+				18C316191E2EFF0B0030933E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18C316191E2EFF0B0030933E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C316181E2EFF0B0030933E /* DrawChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C3161A1E2EFF0B0030933E /* DrawChat */ = {
+			isa = PBXGroup;
+			children = (
+				18C316681E2F07F90030933E /* WQChart */,
+				18C3161E1E2EFF0B0030933E /* AppDelegate.h */,
+				18C3161F1E2EFF0B0030933E /* AppDelegate.m */,
+				18C316831E2F081D0030933E /* BarGraphController.h */,
+				18C316841E2F081D0030933E /* BarGraphController.m */,
+				18C316861E2F083D0030933E /* GaugeGraphController.h */,
+				18C316871E2F083D0030933E /* GaugeGraphController.m */,
+				18C316891E2F085B0030933E /* LineGraphController.h */,
+				18C3168A1E2F085B0030933E /* LineGraphController.m */,
+				18C3168C1E2F08740030933E /* PieGraphController.h */,
+				18C3168D1E2F08740030933E /* PieGraphController.m */,
+				18C316981E2F0F8A0030933E /* BaseViewController.h */,
+				18C316991E2F0F8A0030933E /* BaseViewController.m */,
+				18C316241E2EFF0B0030933E /* Main.storyboard */,
+				18C316271E2EFF0B0030933E /* Assets.xcassets */,
+				18C316291E2EFF0B0030933E /* LaunchScreen.storyboard */,
+				18C3162C1E2EFF0B0030933E /* Info.plist */,
+				18C3161B1E2EFF0B0030933E /* Supporting Files */,
+			);
+			path = DrawChat;
+			sourceTree = "<group>";
+		};
+		18C3161B1E2EFF0B0030933E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C3161C1E2EFF0B0030933E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18C316681E2F07F90030933E /* WQChart */ = {
+			isa = PBXGroup;
+			children = (
+				18C316691E2F07F90030933E /* WQBarGraphView */,
+				18C3166C1E2F07F90030933E /* WQGaugeGraphView */,
+				18C316731E2F07F90030933E /* WQLineGraphView */,
+				18C316771E2F07F90030933E /* WQPieGraphView */,
+				18C316971E2F0F4E0030933E /* WQChatHeader.h */,
+			);
+			path = WQChart;
+			sourceTree = "<group>";
+		};
+		18C316691E2F07F90030933E /* WQBarGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				18C3166A1E2F07F90030933E /* WQBarGraphView.h */,
+				18C3166B1E2F07F90030933E /* WQBarGraphView.m */,
+				18C3168F1E2F0D6B0030933E /* BarGraphData.plist */,
+			);
+			path = WQBarGraphView;
+			sourceTree = "<group>";
+		};
+		18C3166C1E2F07F90030933E /* WQGaugeGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				18C3166D1E2F07F90030933E /* gaugeback.png */,
+				18C3166E1E2F07F90030933E /* pointer.png */,
+				18C3166F1E2F07F90030933E /* pointer1.png */,
+				18C316701E2F07F90030933E /* pointer2.png */,
+				18C316711E2F07F90030933E /* WQGaugeGraphView.h */,
+				18C316721E2F07F90030933E /* WQGaugeGraphView.m */,
+				18C316911E2F0DCE0030933E /* WQGaugeGraphData.plist */,
+			);
+			path = WQGaugeGraphView;
+			sourceTree = "<group>";
+		};
+		18C316731E2F07F90030933E /* WQLineGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				18C316751E2F07F90030933E /* WQLineGraphView.h */,
+				18C316761E2F07F90030933E /* WQLineGraphView.m */,
+				18C316741E2F07F90030933E /* ColorRatio.plist */,
+				18C316931E2F0DE10030933E /* WQLineGraphData.plist */,
+			);
+			path = WQLineGraphView;
+			sourceTree = "<group>";
+		};
+		18C316771E2F07F90030933E /* WQPieGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				18C316781E2F07F90030933E /* WQPieGraphView.h */,
+				18C316791E2F07F90030933E /* WQPieGraphView.m */,
+				18C316951E2F0DF00030933E /* WQPieGraphData.plist */,
+			);
+			path = WQPieGraphView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C316171E2EFF0B0030933E /* DrawChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C3162F1E2EFF0B0030933E /* Build configuration list for PBXNativeTarget "DrawChat" */;
+			buildPhases = (
+				18C316141E2EFF0B0030933E /* Sources */,
+				18C316151E2EFF0B0030933E /* Frameworks */,
+				18C316161E2EFF0B0030933E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawChat;
+			productName = DrawChat;
+			productReference = 18C316181E2EFF0B0030933E /* DrawChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C316101E2EFF0B0030933E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yidian;
+				TargetAttributes = {
+					18C316171E2EFF0B0030933E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 85B847V8ZH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18C316131E2EFF0B0030933E /* Build configuration list for PBXProject "DrawChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C3160F1E2EFF0B0030933E;
+			productRefGroup = 18C316191E2EFF0B0030933E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C316171E2EFF0B0030933E /* DrawChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C316161E2EFF0B0030933E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C316801E2F07F90030933E /* ColorRatio.plist in Resources */,
+				18C316901E2F0D6B0030933E /* BarGraphData.plist in Resources */,
+				18C3162B1E2EFF0B0030933E /* LaunchScreen.storyboard in Resources */,
+				18C3167E1E2F07F90030933E /* pointer2.png in Resources */,
+				18C316961E2F0DF00030933E /* WQPieGraphData.plist in Resources */,
+				18C316941E2F0DE10030933E /* WQLineGraphData.plist in Resources */,
+				18C316281E2EFF0B0030933E /* Assets.xcassets in Resources */,
+				18C3167B1E2F07F90030933E /* gaugeback.png in Resources */,
+				18C3167D1E2F07F90030933E /* pointer1.png in Resources */,
+				18C316261E2EFF0B0030933E /* Main.storyboard in Resources */,
+				18C3167C1E2F07F90030933E /* pointer.png in Resources */,
+				18C316921E2F0DCE0030933E /* WQGaugeGraphData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C316141E2EFF0B0030933E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C316811E2F07F90030933E /* WQLineGraphView.m in Sources */,
+				18C316851E2F081D0030933E /* BarGraphController.m in Sources */,
+				18C3169A1E2F0F8A0030933E /* BaseViewController.m in Sources */,
+				18C316821E2F07F90030933E /* WQPieGraphView.m in Sources */,
+				18C3167A1E2F07F90030933E /* WQBarGraphView.m in Sources */,
+				18C3167F1E2F07F90030933E /* WQGaugeGraphView.m in Sources */,
+				18C3168E1E2F08740030933E /* PieGraphController.m in Sources */,
+				18C3168B1E2F085B0030933E /* LineGraphController.m in Sources */,
+				18C316201E2EFF0B0030933E /* AppDelegate.m in Sources */,
+				18C316881E2F083D0030933E /* GaugeGraphController.m in Sources */,
+				18C3161D1E2EFF0B0030933E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18C316241E2EFF0B0030933E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C316251E2EFF0B0030933E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C316291E2EFF0B0030933E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C3162A1E2EFF0B0030933E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C3162D1E2EFF0B0030933E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18C3162E1E2EFF0B0030933E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C316301E2EFF0B0030933E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85B847V8ZH;
+				INFOPLIST_FILE = DrawChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidian.DrawChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18C316311E2EFF0B0030933E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85B847V8ZH;
+				INFOPLIST_FILE = DrawChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidian.DrawChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C316131E2EFF0B0030933E /* Build configuration list for PBXProject "DrawChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C3162D1E2EFF0B0030933E /* Debug */,
+				18C3162E1E2EFF0B0030933E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C3162F1E2EFF0B0030933E /* Build configuration list for PBXNativeTarget "DrawChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C316301E2EFF0B0030933E /* Debug */,
+				18C316311E2EFF0B0030933E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C316101E2EFF0B0030933E /* Project object */;
+}

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="msv-9B-hEg">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--折线图-->
+        <scene sceneID="cDY-yV-en6">
+            <objects>
+                <viewController title="折线图" id="1ms-Sf-wHa" customClass="LineGraphController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kk1-4U-o3S"/>
+                        <viewControllerLayoutGuide type="bottom" id="1NZ-tC-YQn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="muP-Jj-qtB">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="折线图" id="I0O-sN-khg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IQs-HL-1RV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1134" y="316"/>
+        </scene>
+        <!--仪表盘-->
+        <scene sceneID="kNi-Kc-ZR8">
+            <objects>
+                <viewController title="仪表盘" id="1NL-5R-aEJ" customClass="GaugeGraphController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9sg-rx-saw"/>
+                        <viewControllerLayoutGuide type="bottom" id="xpJ-az-zYW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xWv-95-ZMs">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wW9-Wg-qB0">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="326"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wW9-Wg-qB0" firstAttribute="leading" secondItem="xWv-95-ZMs" secondAttribute="leading" id="Dcu-y2-e1U"/>
+                            <constraint firstItem="xpJ-az-zYW" firstAttribute="top" secondItem="wW9-Wg-qB0" secondAttribute="bottom" id="ZaA-b0-e7C"/>
+                            <constraint firstItem="wW9-Wg-qB0" firstAttribute="top" secondItem="xWv-95-ZMs" secondAttribute="top" id="iVO-dI-Tp1"/>
+                            <constraint firstAttribute="trailing" secondItem="wW9-Wg-qB0" secondAttribute="trailing" id="peH-nX-XpJ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="仪表盘" id="7By-c5-Rch"/>
+                    <connections>
+                        <outlet property="contentSV" destination="wW9-Wg-qB0" id="Jj4-kn-1Jg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HQA-XC-dIK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="355.7721139430285" y="303.19999999999999"/>
+        </scene>
+        <!--饼状图-->
+        <scene sceneID="EB4-rc-hic">
+            <objects>
+                <viewController title="饼状图" id="hXa-iD-x3z" customClass="PieGraphController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FIM-kZ-3XN"/>
+                        <viewControllerLayoutGuide type="bottom" id="dzZ-lT-8FA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JTG-Qf-i5P">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="饼状图" id="i9F-wl-ihW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="805-Fb-ig2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1753" y="327"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Z9M-VF-oVl">
+            <objects>
+                <tabBarController id="msv-9B-hEg" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="9H4-rp-9fO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="1NL-5R-aEJ" kind="relationship" relationship="viewControllers" id="7Hz-iS-F9A"/>
+                        <segue destination="1ms-Sf-wHa" kind="relationship" relationship="viewControllers" id="71j-0j-6AU"/>
+                        <segue destination="hXa-iD-x3z" kind="relationship" relationship="viewControllers" id="NVg-h1-Itx"/>
+                        <segue destination="1Na-VH-T1G" kind="relationship" relationship="viewControllers" id="N7E-IP-vJt"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RWd-4e-aQa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1290" y="-656"/>
+        </scene>
+        <!--柱状图-->
+        <scene sceneID="uZW-Vh-Y1Q">
+            <objects>
+                <viewController title="柱状图" id="1Na-VH-T1G" customClass="BarGraphController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0nT-Eo-bU3"/>
+                        <viewControllerLayoutGuide type="bottom" id="01q-hf-CnE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DfU-7K-j0W">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wVx-oV-ZH1">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="326"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wVx-oV-ZH1" firstAttribute="top" secondItem="DfU-7K-j0W" secondAttribute="top" id="0ZT-yY-F3Y"/>
+                            <constraint firstItem="01q-hf-CnE" firstAttribute="top" secondItem="wVx-oV-ZH1" secondAttribute="bottom" id="Bj2-yn-hhh"/>
+                            <constraint firstAttribute="trailing" secondItem="wVx-oV-ZH1" secondAttribute="trailing" id="JZx-Wc-ASn"/>
+                            <constraint firstItem="wVx-oV-ZH1" firstAttribute="leading" secondItem="DfU-7K-j0W" secondAttribute="leading" id="Ora-xf-zjI"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="柱状图" id="dgz-IT-3a6"/>
+                    <connections>
+                        <outlet property="contentSV" destination="wVx-oV-ZH1" id="wGG-Xa-qt2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VMG-qI-zKX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2467" y="316"/>
+        </scene>
+    </scenes>
+</document>
